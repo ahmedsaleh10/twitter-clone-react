@@ -8,8 +8,8 @@ const LeftPart = () => {
   return (
     <div className="sideBar">
       <img src="/assets/twitterLogo.jpg" className="twitterLogo" alt="twitter logo" />
-      {data.map((e, indx) => (
-        <MenuBox item={e} key={indx} />
+      {data.map((e, index) => (
+        <MenuBox item={e} key={index} />
       ))}
       <div className="btn">Post</div>
     </div>
