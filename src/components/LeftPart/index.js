@@ -1,5 +1,5 @@
 import React from 'react'
-import { SideBarData } from '../../mockData/SideBarData';
+import { SideBarData } from '../../mockData/SidebarData';
 
 const LeftPart = () => {
   const data = SideBarData;
