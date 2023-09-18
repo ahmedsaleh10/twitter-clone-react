@@ -23,3 +23,20 @@ body {
   margin: 0;
   padding: 0;
 }
+.homePage {
+  display: grid;
+  grid-template-columns: 25% 40% 1fr;
+}
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .homePage {
+    grid-template-columns: 100%;
+  }
+  .sideBar {
+    display: none;
+  }
+}
