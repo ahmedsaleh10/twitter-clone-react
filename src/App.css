@@ -27,6 +27,7 @@ body {
 .homePage {
   display: grid;
   grid-template-columns: 25% 40% 1fr;
+  height: 100%;
 }
 .sideBar {
   display: flex;
@@ -66,4 +67,27 @@ body {
   margin-left: 1.2rem;
   font-size: 20px;
   text-align: center;
+}
+.middlePart {
+  border-left: 1px solid var(--gray-color);
+  border-right: 1px solid var(--gray-color);
+  height: 100%;
+}
+.headerContent {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  margin-left: 1rem;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+.headerName {
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+small {
+  color: var(--gray-color);
+  font-size: 1rem;
 }
