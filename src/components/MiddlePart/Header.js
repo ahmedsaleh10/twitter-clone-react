@@ -4,7 +4,7 @@ import { BsArrowLeft } from "react-icons/bs";
 const Header = ({name,numberOfPosts}) => {
   return (
     <div className="headerContent">
-      <BsArrowLeft className="white-text" />
+      <BsArrowLeft className="white-text arrow" />
       <div>
         <h3 className="headerName white-text">{name}</h3>
         <small>{numberOfPosts} posts</small>
