@@ -1,6 +1,7 @@
 import Header from "./Header";
 import ProfilePicture from "./ProfilePicture";
 import Details from "./Details";
+import Posts from "./Posts";
 
 const MiddlePart = ({ data }) => {
   return (
@@ -22,6 +23,7 @@ const MiddlePart = ({ data }) => {
         numberOfFollowers={data.numberOfFollowers}
         mutualFriends={data.mutualFriends}
       />
+      <Posts reposted={true}/>
     </div>
   );
 };
