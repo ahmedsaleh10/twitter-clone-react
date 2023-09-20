@@ -2,6 +2,8 @@ import Header from "./Header";
 import ProfilePicture from "./ProfilePicture";
 import Details from "./Details";
 import Posts from "./Posts";
+import SuggestedFollowing from "./SuggestedFollowing";
+import {SuggestedFollowingData} from "../../mockData/SuggestedFollowingData"
 
 const MiddlePart = ({ data }) => {
   return (
@@ -24,6 +26,7 @@ const MiddlePart = ({ data }) => {
         mutualFriends={data.mutualFriends}
       />
       <Posts/>
+      <SuggestedFollowing data={SuggestedFollowingData}/>
     </div>
   );
 };
