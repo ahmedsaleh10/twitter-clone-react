@@ -23,7 +23,7 @@ const MiddlePart = ({ data }) => {
         numberOfFollowers={data.numberOfFollowers}
         mutualFriends={data.mutualFriends}
       />
-      <Posts reposted={true}/>
+      <Posts/>
     </div>
   );
 };
