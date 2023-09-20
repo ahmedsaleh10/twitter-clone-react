@@ -1,8 +1,13 @@
 import React from 'react'
+import SuggestedLiked from './SuggestedLiked'
+import {SuggestedLikedData} from "../../mockData/SuggestedLikedData"
 
 const RightPart = () => {
   return (
-    <div>RightPart</div>
+    <div className='rightPartContainer'>
+       <SuggestedLiked data={SuggestedLikedData}/>
+      {/*<Trends /> */}
+    </div>
   )
 }
 
