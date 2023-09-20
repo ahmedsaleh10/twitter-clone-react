@@ -244,11 +244,66 @@ ul {
   margin-left: 1.4rem;
 }
 .contentImg {
-  height: 32px;
-  width: 32px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
 }
 .contentBox {
   margin-left: 1rem;
   font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Suggested Following */
+.followingContainer {
+  border-bottom: 1px solid var(--gray-color);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.followingTitle {
+  font-size: 1.5rem;
+  margin: 1rem 1.4rem;
+}
+.followingShowMore {
+  margin: 1.4rem;
+}
+.SingleSuggestedFollowing {
+  margin-left: 1.4rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.followButton {
+  background: white;
+  color: black;
+  border-radius: 29px;
+  padding: 10px 21px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.sharedFollowing {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-left: 2.1rem;
+    margin-bottom: 0.5rem;
+}
+.followingUser {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+.followingUserDetails {
+  margin: 0rem 1.2rem;
+}
+h4,p {
+  margin: 0;
+}
+.followingUserDescription {
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
 }
