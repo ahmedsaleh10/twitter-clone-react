@@ -259,11 +259,11 @@ ul {
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
-.followingTitle {
+.followingTitle,.likedTitle {
   font-size: 1.5rem;
   margin: 1rem 1.4rem;
 }
-.followingShowMore {
+.followingShowMore ,.likedShowMore{
   margin: 1.4rem;
 }
 .SingleSuggestedFollowing {
@@ -278,6 +278,10 @@ ul {
   padding: 10px 21px;
   font-weight: 700;
   font-size: 1rem;
+}
+.userContentBox {
+  display: flex;
+
 }
 .sharedFollowing {
     display: flex;
@@ -306,4 +310,25 @@ h4,p {
 .followingUserDescription {
   margin-top: 0.6rem;
   font-size: 1.2rem;
+}
+/* Right Part */
+.rightPartContainer {
+  width: 95%;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #16181c;
+  margin-left: 1.4rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.likedSection {
+    padding: 0.85rem 0;
+    border-radius: 10px;
+    background-color: #16181c;
+    margin-left: 1.4rem;
 }
