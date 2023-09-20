@@ -8,7 +8,7 @@ const SuggestedLiked = ({data}) => {
             <AiOutlineSearch className="gray-text icon" />
             <small>Search</small>
         </div>
-      <div className="likedSection mb-4">
+      <div className="likedSection">
         <h4 className="white-text likedTitle">You might like</h4>
         {data.map((e, index) => (
           <SingleSuggestedFollowing key={index} data={e} />
