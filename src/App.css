@@ -54,7 +54,7 @@ body {
 
 @media screen and (max-width: 1000px) {
   .homePage {
-    grid-template-columns: 10% 1fr 1fr;
+    grid-template-columns: 7% 1fr 1fr;
   }
   .middlePart {
     grid-column-start: 2;
@@ -64,7 +64,36 @@ body {
     grid-column-start: 2;
     grid-column-end: 4;
   }
+  .sideBar {
+    padding-left: 0.1rem;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .sideBar {
+    display: none;
+  }
+  .middlePart {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .rightPartContainer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
+
+@media screen and (max-width :465px) {
+  .SingleSuggestedFollowing .followingUser {
+    flex-direction: column;
+    align-items: normal;
+    gap: 0.7rem;
+  }
+  .userContentBox {
+    justify-content: center;
+  }
+}
+
 .menuBox {
   display: flex;
   align-items: center;
