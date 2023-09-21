@@ -34,12 +34,35 @@ body {
   align-items: flex-start;
   padding-left: 1.5rem;
 }
+@media screen and (max-width :1400px) {
+  .homePage {
+    grid-template-columns: 23.5% 42% 1fr;
+  }
+}
+
+@media screen and (max-width :1200px) {
+  .menuBox p {
+    display: none;
+  }
+  .homePage {
+    grid-template-columns: 10% 50% 1fr;
+  }
+  .sideBar .btn {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .homePage {
-    grid-template-columns: 100%;
+    grid-template-columns: 10% 1fr 1fr;
   }
-  .sideBar {
-    display: none;
+  .middlePart {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .rightPartContainer {
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 }
 .menuBox {
@@ -52,7 +75,7 @@ body {
 }
 .twitterLogo {
   height: 85px;
-  width: 120px;
+  width: 100px;
   margin-top: 0.2rem;
   margin-left: -15px;
 }
